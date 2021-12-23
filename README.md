@@ -1,2 +1,4 @@
 # HuntTheWumpus
 A project I did for Data Structures &amp; Algorithms at Colby College with Professor Naser Al Madi. The project contains LinkedList, Vertex, and Graph data structure classes programmed from scratch. It also provides implementation for a playable version of the 1970s game Hunt the Wumpus.
+
+The user can play the game by compiling all files and running HuntTheWumpus.java. It uses WASD keys to move laterally through the graph-based map. Small black lines indicate that a passage exists between two cells. A black cell indicates a normal cell; a red cell indicates that the Wumpus is within two cells of the Hunter. To shoot the Wumpus, occupy an adjacent cell, press SPACE, and press the WASD key corresponding to the direction in which you wish to fire. The command line will tell you if you fired successfully and killed the Wumpus, or if you missed and alerted the Wumpus to your position, resulting in your death.
